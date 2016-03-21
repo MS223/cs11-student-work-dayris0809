@@ -1,0 +1,8 @@
+import random
+random.randint(0, 3)
+random.randint(0, 3)
+print(random.randint(0, 3))
+print(random.randint(0, 3))
+print(random.randint(0, 3))
+# Randints identifies the two integers
+# 0 and 3 are the inputs and only pick numbers between those two given variables
