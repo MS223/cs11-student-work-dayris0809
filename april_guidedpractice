@@ -1,0 +1,27 @@
+# what does this function return ?
+def print_only(x):
+   y = x * 2
+    print y
+#It prints nothing because the x is not defined.
+def return_only(x):
+   y = x * 2
+   return y
+#When it is returning the y value and you run it, it only says to finish the code.
+def print_only(x):
+   y = x * 2
+   print y
+   print "running print_only ..."
+print_only(7)
+#It plugs in the 7 and multiplies by 2
+def return_only(x):
+   y = x * 2
+   return y
+print "running print_only ..."
+print_only(7)
+#When using return it only prints on what you tell it to print
+def return_only(x):
+   y = x * 2
+   print y
+print "using print_only ..."
+print_only(7) + 6 
+#Here it doesn't plug in 7 or 6 it only prints out on what you tell it to say.
