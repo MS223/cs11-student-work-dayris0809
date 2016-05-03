@@ -1,0 +1,21 @@
+list1,list2 = [4,5,15,11,23,42], [1,8,7,16,7,35]
+print "Max value element : ", max(list1)
+print "Max value element : ", max(list2)
+
+value = input("pick a number ")
+max_value = range (1, value+1)
+print max_value
+
+compare_list = list1 = [4,5,15,11,23,42]
+compare_list = list2 = [1,8,7,16,7,35]
+     def compare_list(x):
+     for x in list1:
+         if x >list2[list1.index(x)]:
+             print x
+         else:
+              print list2[list1.index(x)]
+
+width = input("how wide?")
+height = input("how tall?")
+for x in range (0,height):
+    print width * "* -"
