@@ -1,0 +1,5 @@
+text_input = raw_input("Nice to meet you")
+my_dictionary = {}
+for x in my_dictionary:
+    my_dictionary[x] = my_dictionary.pop(x, 0) + 1
+    print my_dictionary
