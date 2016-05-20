@@ -1,0 +1,11 @@
+to_do = raw_input("What would you like to do?")
+day = raw_input ("What day?")
+empty_dictionary = {'Monday':[]
+                    'Tuesday':[]
+                    'Wednesday':[]
+                    'Thursday':[]
+                    'Friday':[]
+                    'Saturday':[]
+                    'Sunday':[]
+def add():
+# I'm trying to add the to do and mention what day.
