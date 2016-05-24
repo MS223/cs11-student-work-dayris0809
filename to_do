@@ -1,10 +1,21 @@
-to_do = raw_input("What would you like to do?")
-day = raw_input ("What day?")
-empty_dictionary = {'Monday':[]}
-                    {'Tuesday':[]}
-                    {'Wednesday':[]}
-                    {'Thursday':[]}
+empty_dictionary =  'Monday':[]
+                    'Tuesday':[]
+                    'Wednesday':[]
+                    'Thursday':[]
                     'Friday':[]
                     'Saturday':[]
-                    'Sunday':[]
-def add():
+                    'Sunday':[]}
+def add(action,day):
+        empty_dictionary[day].append(action)
+
+def get(day)
+    print empty_dictionary
+
+def choice():
+    user_choice = raw_input("How can I help you?")
+    if user_choice = 'add':
+        action = raw_input("What would you like to do?")
+        day = raw_input("What day?").capitalize()
+        add(action,day)
+    print empty_dictionary
+
